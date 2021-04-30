@@ -1,5 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Example from './Example4';
+import MyComponentWithPersistentData from './HOC/index2';
 
-ReactDOM.render(<Example />, document.getElementById('root'));
+ReactDOM.render(<MyComponentWithPersistentData />, document.getElementById('root'));
